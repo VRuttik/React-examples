@@ -8,9 +8,9 @@ function App() {
       <div className="App">
         <Product
           img="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/6142201/1.jpg?2933"
-          name="Cyxus"
-          desc="Non-Slip Fitness Leisure Running Sneakers"
-          price="$29"
+          name="Red Tape"
+          desc="Red Tape Casual Sneaker Shoes for Men | Elegantly Rounded Front, Soothing Insole & Impact-Resistant Comfort"
+          price="Rs. 1,769"
         />
         <Product
           img="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/241417/1.jpg?6747"
