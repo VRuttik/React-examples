@@ -1,0 +1,15 @@
+/* Employees.css */
+
+/* Styling the button container */
+.buttonContainer {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px; /* Space above buttons */
+}
+
+/* Optional: Adjust button styles if needed */
+.buttonContainer .ms-Button {
+  width: auto; /* Auto width for buttons */
+}
+

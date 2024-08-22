@@ -1,0 +1,84 @@
+/* EmployeeForm.module.css */
+
+/* Container to center the form */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Add some padding to the container */
+}
+
+/* Form container styling */
+.formContainer {
+  width: 100%;
+  max-width: 500px; /* Reduced max-width for better fit */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Heading styling */
+.heading {
+  text-align: center;
+  color: purple;
+  text-decoration: underline;
+  margin-bottom: 20px; /* Space out from form fields */
+}
+
+/* Styling for text fields */
+.TextField {
+  width: 100%; /* Ensure text fields use full width of the form */
+}
+
+/* Button container styling */
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+  width: 100%; /* Full width for button container */
+  margin-top: 15px; /* Space above buttons */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .formContainer {
+    width: 100%;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .heading {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .formContainer {
+    padding: 10px; /* Further reduce padding for very small screens */
+  }
+
+  .heading {
+    font-size: 1.2rem; /* Further adjust font size */
+    margin-bottom: 10px; /* Further adjust margin */
+  }
+
+  .buttonsContainer {
+    flex-direction: row; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+  }
+
+  .buttonsContainer .ms-Button {
+    width: 100%; /* Ensure buttons take full width */
+    margin-bottom: 10px; /* Space between stacked buttons */
+  }
+}
+
+
+
+
+

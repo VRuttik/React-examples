@@ -1,0 +1,19 @@
+
+.dashboardContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboardHeading {
+  color: black;
+  font-family: Serif;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.dashboardButtonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+

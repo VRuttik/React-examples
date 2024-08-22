@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+  position: relative;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.detailsListContainer {
+  margin-top: 20px;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableContainer > div {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .detailsListContainer,
+  .tableContainer {
+    flex-direction: column;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.tableOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.formContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
