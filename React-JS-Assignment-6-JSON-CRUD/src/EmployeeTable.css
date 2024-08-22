@@ -1,0 +1,38 @@
+.detailsList {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .detailsList {
+    margin-top: 10px;
+  }
+
+  .ms-DetailsHeader {
+    display: none; 
+  }
+
+  .ms-DetailsRow {
+    display: block;
+    width: 100%;
+  }
+
+  .ms-DetailsRow-cell {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ms-DetailsRow-cell[data-automationid="DetailsRowCell"] {
+    min-width: 0; 
+  }
+}
+
+.actionsColumn {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 5px;
+}

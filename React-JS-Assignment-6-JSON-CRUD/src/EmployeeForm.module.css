@@ -1,0 +1,23 @@
+.formContainer {
+  padding: 20px;
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid grey;
+}
+
+.datePickerContainer {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+}
+
+
+
+

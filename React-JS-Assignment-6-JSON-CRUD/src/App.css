@@ -1,0 +1,26 @@
+.app-container {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 170px;
+  
+}
+.detailsList {
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.detailsList .ms-DetailsHeader {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.detailsList .ms-DetailsRow {
+  border-bottom: 1px solid #ddd;
+}
+
+.detailsList .ms-DetailsRow:hover {
+  background-color: #f1f1f1;
+}
+

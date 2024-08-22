@@ -1,0 +1,34 @@
+.employees-container {
+  margin: 20px;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+}
+
+.detailsList {
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.employeeTable {
+  margin-top: 0;
+}
+
+
+.buttonContainer .backButton {
+  margin-left: 0%;
+}
+
+.buttonContainer .addEmployeeButton {
+  margin-right: 2%;
+}
+
+
